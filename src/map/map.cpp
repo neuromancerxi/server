@@ -178,6 +178,12 @@ int32 do_init(int32 argc, char** argv)
         }
     }
 
+    if (!std::filesystem:exists("./scripts/settings/main.lua"))
+    {
+        ShowError("FAIL. See /scripts/settings/ReadMe.md immediately.");
+        do_abort();
+    }
+
     MAP_CONF_FILENAME = "./conf/map.conf";
 
     srand((uint32)time(nullptr));
