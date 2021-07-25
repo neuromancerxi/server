@@ -4,7 +4,7 @@
 -- Involved in Mission 2-3
 -- !pos -80 -5 158 240
 -----------------------------------
-require("scripts/globals/settings")
+require("scripts/settings/main")
 require("scripts/globals/keyitems")
 local ID = require("scripts/zones/Port_Windurst/IDs")
 -----------------------------------

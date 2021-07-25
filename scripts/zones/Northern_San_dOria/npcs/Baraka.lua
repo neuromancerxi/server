@@ -4,7 +4,7 @@
 -- Involved in Missions 2-3
 -- !pos 36 -2 -2 231
 -----------------------------------
-require("scripts/globals/settings")
+require("scripts/settings/main")
 require("scripts/globals/missions")
 -----------------------------------
 local entity = {}

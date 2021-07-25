@@ -6,7 +6,7 @@
 -- !pos 92.936 -19.532 1.814 237
 -----------------------------------
 require("scripts/globals/missions")
-require("scripts/globals/settings")
+require("scripts/settings/main")
 require("scripts/globals/titles")
 local ID = require("scripts/zones/Metalworks/IDs")
 -----------------------------------

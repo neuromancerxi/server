@@ -3,7 +3,7 @@
 --  NPC: Gold Skull
 -- Mission NPC
 -----------------------------------
-require("scripts/globals/settings")
+require("scripts/settings/main")
 require("scripts/globals/keyitems")
 local ID = require("scripts/zones/Port_Windurst/IDs")
 -----------------------------------

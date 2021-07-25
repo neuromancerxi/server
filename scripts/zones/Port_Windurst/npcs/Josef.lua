@@ -3,7 +3,7 @@
 --  NPC: Josef
 -- Standard Info Npc
 -----------------------------------
-require("scripts/globals/settings")
+require("scripts/settings/main")
 -----------------------------------
 local entity = {}
 
